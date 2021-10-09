@@ -5,6 +5,8 @@ module.exports = async ({ ethers, getNamedAccounts, deployments }) => {
     const namedAccounts = await getNamedAccounts();
     const { deployer } = namedAccounts;
 
+    console.log(deployer);
+
     const deployResult = await deploy('BatchMintBadge', {
         from: deployer,
         args: [

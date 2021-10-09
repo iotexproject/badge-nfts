@@ -22,6 +22,11 @@ export default {
             url: `https://kovan.infura.io/v3/${process.env.INFURA_PROJECT_ID}`,
             accounts,
         },
+        shibuya: {
+            url: 'https://rpc.shibuya.astar.network:8545',
+            accounts,
+            chainId: 81,
+        },
         iotex: {
             url: 'https://babel-api.mainnet.iotex.io',
             accounts,
