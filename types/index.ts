@@ -13,6 +13,7 @@ export type { IERC165 } from "./IERC165";
 export type { BatchMintBadge } from "./BatchMintBadge";
 export type { CartesiIdeaThonNFT } from "./CartesiIdeaThonNFT";
 export type { CovalentIoTeXNFT } from "./CovalentIoTeXNFT";
+export type { PebblePioneerNFT } from "./PebblePioneerNFT";
 
 export { Ownable__factory } from "./factories/Ownable__factory";
 export { ERC721__factory } from "./factories/ERC721__factory";
@@ -26,3 +27,4 @@ export { IERC165__factory } from "./factories/IERC165__factory";
 export { BatchMintBadge__factory } from "./factories/BatchMintBadge__factory";
 export { CartesiIdeaThonNFT__factory } from "./factories/CartesiIdeaThonNFT__factory";
 export { CovalentIoTeXNFT__factory } from "./factories/CovalentIoTeXNFT__factory";
+export { PebblePioneerNFT__factory } from "./factories/PebblePioneerNFT__factory";
