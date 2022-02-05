@@ -60,6 +60,7 @@
     "verify:kovan": "hardhat --network kovan etherscan-verify"
   },
   "dependencies": {
+    "@iotexproject/iotex-address-ts": "^1.0.4",
     "@openzeppelin/contracts": "^4.0.0"
   }
 }
