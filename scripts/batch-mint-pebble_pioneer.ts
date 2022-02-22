@@ -12,7 +12,7 @@ async function main() {
         const addr = from(lines[i]);
         users.push({
             address: addr.stringEth(),
-            index: i + 1
+            index: i + 171
         })   
     }
 
@@ -24,6 +24,7 @@ async function main() {
     if (lines.length % 50 != 0) {
         batch = batch + 1;
     }
+
     for (let i = 0; i < batch; i++) {
         const addresses = [];
         const indexes = [];
