@@ -61,6 +61,7 @@
   },
   "dependencies": {
     "@iotexproject/iotex-address-ts": "^1.0.4",
-    "@openzeppelin/contracts": "^4.0.0"
+    "@openzeppelin/contracts": "^4.0.0",
+    "@openzeppelin/contracts-upgradeable": "^4.5.2"
   }
 }
